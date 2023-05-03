@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+	<head>
+
+		<meta charset="UTF-8">
+	
+		<meta name="viewport" content="width=device-width">
+		
+		<title>Hawai'i Finest</title>
+		
+		<link href="styles.css" rel="stylesheet" type="text/css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	</head>
+	
+<body>
+	
+		<header>
+			<section id="wrapper">
+				<img src="Hawaii Finest Logo-1.png" alt="Hawai'i Finest Logo">
+			</section>
+			<nav>
+				<div class="topnav" id="myTopNav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="kanaka.html">Kanaka</a></li>
+						<li><a href="daaina.html">Da 'Aina</a></li>
+						<li><a href="about.html">About</a></li>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i>
+						  </a>
+					</ul>
+				</div>
+				</nav>
+		</header>
+
+		<head>
+			<h1>About Page</h1>
+		</head>
+
+	<main>
+
+		<section id="about">
+			<div id="aboutimg">
+			<img src="jodyleeann.JPG" alt="Jodyleeann's picture"></div>
+				<p>Hi everyone! My name is Jodyleeann Kalulu. I was born in Kahuku, Oahu, Hawaii. Throughout my life I have seen people that aren't of the 'aina ruin the 'aina. I wanted to showcase my skills as a website designer/developer and talk about something that I hold close to my heart. Their is honestly so much to learn about Hawai'i, its culture, and its languge. The United States banned 'olelo Hawai'i because they couldn't understand our language. On July 31, 1843, which is known as La Ho'iho'i Ea, King Kamehameha III spoke, "Ua Mau ke Ea o ka 'Aina i ka Pono" to the Hawaiian people which means "The sovereignty of our kingdom continues because we are righteous". Today if you look up that translation from 'olelo Hawai'i to English it'll say "The life of the land is perpetuated in righteousness" just because Hawai'i is apart if the states. This motto from King Kamehameha III isn't supposed to be inspirational, it is a reinstatment of the power of the mana(supernatural or divine power) and the inherent rights of the people of the Hawaiian islands. If you would like to know more fill out the form below and I will answer all the questions you have about our culture, 'olelo Hawai'i, and the 'aina. </p>
+				<div class="form-container">
+					<h3>Contact Us</h3>
+					<form>
+					  <label for="name">Name:</label>
+					  <input type="text" id="name" name="name" required>
+					  
+					  <label for="email">Email:</label>
+					  <input type="email" id="email" name="email" required>
+					  
+					  <label for="message">Message:</label>
+					  <textarea id="message" name="message" rows="5" required></textarea>
+					  
+					  <input type="submit" value="Submit">
+					</form>
+				  </div>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Hawai'i Finest</p>
+	</footer>
+	<script>
+		function myFunction() {
+      let topNav = document.getElementById("myTopNav");
+      if (topNav.className === "topnav") {
+        topNav.className += " responsive";
+      } else {
+        topNav.className = "topnav";
+      }
+ }
+		</script>
+</body>
+
+</html>
